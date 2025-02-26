@@ -397,6 +397,10 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 *   UPLOAD\_FILE\_BATCH\_LIMIT
 
     每次上传文件数上限，默认 5 个。
+
+*   NGINX_CLIENT_MAX_BODY_SIZE
+
+    NGINX上传大小限制，默认15M。修改上传文件大小限制需同步调整此配置。
 *   ETL\_TYPE
 
     **可使用的枚举类型包括：**
